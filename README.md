@@ -118,7 +118,7 @@ GAMES.oblivionremastered = {
 - It does not execute any files from mods, only moves/copies saves.
 
 ## Changelog
-**2.10**
+**0.2**
 - Added support for: Oblivion, Morrowind, Fallout 3, Fallout: New Vegas, Fallout 4, Starfield.
 - Co-save handling per game (.skse/.obse/.fose/.nvse/.f4se).
 - Unified sweeps for startup/install/deploy.
