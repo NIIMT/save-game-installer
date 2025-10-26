@@ -2,7 +2,7 @@
 Vortex extension that detects BGS games and auto installs save files to \Saves
 SGI — Save Game Installer (Vortex)
 
-Version: 2.10 • Scope: Multi-game support, minimal change to framework
+Version: 0.2 • Scope: Multi-game support, minimal change to framework
 
 What this does
 
