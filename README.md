@@ -1,5 +1,5 @@
 # Save Game Installer
-**Version:** 0.2 • **Scope:** Multi-game support, minimal change to framework
+**Version:** 2.0 • **Scope:** Multi-game support, minimal change to framework
 
 ## What this does
 Automatically finds save files inside installed mods and moves (or copies) them into the correct **Documents\My Games\<Game>\Saves** folder for the current game. It runs at startup, after installing a mod, and after deployment. Co-saves (SKSE/NVSE/etc.) are handled with the primary save.
@@ -118,12 +118,10 @@ GAMES.oblivionremastered = {
 - It does not execute any files from mods, only moves/copies saves.
 
 ## Changelog
-**0.2**
+**2.0**
 - Added support for: Oblivion, Morrowind, Fallout 3, Fallout: New Vegas, Fallout 4, Starfield.
 - Co-save handling per game (.skse/.obse/.fose/.nvse/.f4se).
 - Unified sweeps for startup/install/deploy.
 - Optional diagnostics to `%USERPROFILE%\Documents\SGI_Diag`.
 
-## Credits
-SGI – Save Game Installer (Vortex extension).  
-Extra game support by extending the single `GAMES` map and reusing the existing scan/move framework.
+
