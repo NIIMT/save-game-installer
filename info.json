@@ -1,7 +1,8 @@
 {
   "name": "Save Game Installer",
-  "author": "NIIMT",
-  "version": "0.2",
+  "author": "napocamods",
+  "version": "2.0",
   "description": "Moves .ess (and matching .skse) from Data/ into the correct Saves folder, added support for BGS games",
   "api": "1.0.0",
+
   "main": "index.js"
